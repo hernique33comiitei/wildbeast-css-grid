@@ -24,7 +24,7 @@
     }
 }
 
-@media (min-width: 735px) {
+@media (min-width: 767px) {
     body {
         grid-template: 
         "header header header"
@@ -43,7 +43,7 @@
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     body {
         grid-template: 
         "header header header"
@@ -57,5 +57,9 @@
     
     .nav-bar li {
         display: block;
+    }
+
+    .ad {
+        grid-template-columns: minmax(150px, 350px);
     }
 }
